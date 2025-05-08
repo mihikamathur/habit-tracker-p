@@ -1,0 +1,67 @@
+/* Add to your TaskList.css */
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;         /* Center align */
+  color: #4a148c;             /* Example: deep purple (customize as needed) */
+  font-weight: bold;
+}
+
+.tasklist-container {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.task-input, .task-category-dropdown {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-input {
+  flex: 2;
+}
+
+.task-category-dropdown {
+  flex: 1;
+}
+
+.add-task-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.category-box {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
